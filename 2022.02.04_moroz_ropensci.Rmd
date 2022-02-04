@@ -1,0 +1,50 @@
+---
+title: "Как подать свой пакет в rOpenSci и зачем это делать"
+author: |
+    | Георгий Алексеевич Мороз
+    | 
+    | \small  Международная лаборатория языковой конвергенции (НИУ ВШЭ)
+    |
+    | «Онлайн-митап по R», 4 февраля 2022
+    |
+    | презентация доступна по ссылке: tinyurl.com/yapvnfm8
+    | ![](images/00_qrcode.png)
+output: 
+  beamer_presentation:
+    df_print: kable
+    latex_engine: xelatex
+    citation_package: natbib
+    includes:
+      in_header: "config/presento.sty"
+bibliography: bibliography.bib
+biblio-style: "apalike"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+# setwd("/home/agricolamz/work/materials/2022.02.18_math_app/presentation")
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev='cairo_pdf')
+options(tinytex.verbose = TRUE)
+# create qrcode
+# library(qrcode)
+# png(filename="images/00_qrcode.png", width = 150, height = 150)
+# plot(qr_code("https://github.com/agricolamz/2022.02.04_rmeetup_ropensci/raw/master/2022.02.04_moroz_ropensci.pdf"))
+# dev.off()
+```
+
+[//]: # комментарий
+
+# Кто такие rOpenSci?
+
+## Кто такие rOpenSci
+тро-ло-ло
+
+# Зачем подавать пакет в rOpenSci?
+
+# Как подать пакет в rOpenSci?
+
+## {}
+
+\LARGE Спасибо за внимание!
+
